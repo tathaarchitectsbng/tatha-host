@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   const preloader = document.querySelector(".tatha-preloader");
   setTimeout(() => {
     preloader.style.display = "none";
-  }, 3000);
+  }, 7000);
 });
 
 
