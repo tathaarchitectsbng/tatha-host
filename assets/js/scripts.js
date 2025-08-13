@@ -934,7 +934,7 @@ function initTatha() {
         setUpCarouselSlider();
         mobMenuInit();
     });
-   $("<div class='close_sb'><i class='far fa-times'></i></div>").appendTo(".sidebar-wrap");	
+   $("<div class='close_sb'><i class='fa fa-close'></i></div>").appendTo(".sidebar-wrap");	
     var sbo = $(".sb-overlay"),
 		sbci = $(".sb-overlay , .close_sb"),
         sb = $(".sidebar-wrap"),
