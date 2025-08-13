@@ -1,9 +1,9 @@
-window.addEventListener("load", () => {
-  const preloader = document.querySelector(".tatha-preloader");
-  setTimeout(() => {
-    preloader.style.display = "none";
-  }, 7000);
-});
+// window.addEventListener("load", () => {
+//   const preloader = document.querySelector(".tatha-preloader");
+//   setTimeout(() => {
+//     preloader.style.display = "none";
+//   }, 7000);
+// });
 
 
 function initTatha() {
@@ -274,6 +274,42 @@ function initTatha() {
         ms1.on('slideChange', function () {
             var csli2 = ms1.realIndex + 1,
                 curnum2 = $('.ts_current');
+            curnum2.html('0' + csli2);
+        });
+    }
+    if ($(".team-carousel").length > 0) {
+        var ms1 = new Swiper(".team-carousel .swiper-container", {
+            loop: true,
+            grabCursor: true,
+            autoHeight: false,
+            centeredSlides: false,
+            slidesPerView: 2,
+            spaceBetween: 20,
+            speed: 1400,
+            navigation: {
+                nextEl: '.hsc-next',
+                prevEl: '.hsc-prev',
+            },
+            pagination: {
+                el: '.hero-slider-pag',
+                clickable: true,
+            },
+            breakpoints: {
+                1064: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+            }
+        });
+        var totalSlides2 = $(".team-carousel  .swiper-slide:not(.swiper-slide-duplicate)").length;
+        $('.tm_total').html('0' + totalSlides2);
+        ms1.on('slideChange', function () {
+            var csli2 = ms1.realIndex + 1,
+                curnum2 = $('.tm_current');
             curnum2.html('0' + csli2);
         });
     }
@@ -649,10 +685,14 @@ function initTatha() {
         filbtn = $(".filter-btn"),
         gfa = $(".gallery-filters a"),
         gfwcf = $(".gallery-filters-wrap .count-folio");
+     let   pbtn = $(".fwc_btn_prev")
+     let   nbtn = $(".fwc_btn_next")
     function showFilters() {
         gfw.fadeIn(1);
         filbtn.removeClass("hid-filter");
         gfo.addClass("vis_overlay");
+        pbtn.css("opacity", "0");
+        nbtn.css("opacity", "0");
         setTimeout(function () {
             gfa.each(function (a) {
                 var boi = $(this);
@@ -677,6 +717,8 @@ function initTatha() {
     function hideFilters() {
         filbtn.addClass("hid-filter");
         gfo.removeClass("vis_overlay");
+        pbtn.css("opacity", "1");
+        nbtn.css("opacity", "1");
         TweenMax.to(gfa, 0.5, {
             force3D: true,
             ease: Power2.easeOut,

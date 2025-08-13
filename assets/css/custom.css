@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   color: #000000;
-  animation: fadeOut 1s ease 10.0s forwards;
+  animation: fadeOut 1s ease 0.0s forwards;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -192,4 +192,19 @@
 
 .share-btn>span{
   display: none;
+}
+.team-item_wrap{
+  position: relative;
+  overflow: hidden;
+  padding: 20px 40px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.team-single h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.team-single p{
+  text-align: center !important;
 }
