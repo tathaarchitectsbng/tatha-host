@@ -1147,6 +1147,7 @@ blockquote p {
 	position: relative;
 	font-weight: 700;
 	margin-bottom: 6px;
+	text-shadow: 1px 3px 9px #000000bf;
 }
 .thumb-info_main h3:before {
     content: '';
@@ -1184,12 +1185,12 @@ blockquote p {
 	color: #fff;
     text-transform: uppercase;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 6px;
     font-size: 10px;
     letter-spacing: 4px;
-    font-weight: 600;
+    font-weight: 500;
     position: relative;
-    padding: 20px 55px;
+    padding: 6px 18px;
     background: #000;
     border-radius: 30px;
     transition: all .2s linear;
