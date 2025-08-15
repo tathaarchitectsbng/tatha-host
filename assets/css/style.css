@@ -3899,7 +3899,7 @@ section {
     border-radius: 10px;
 }
 .fw-carousel_contr_wrap , .close-details , .fw-carousel_number_wrap , .fw-carousel-wrap .fwc_btn , .slide-progress-wrap , .thumb-info_main .fs-slider-item_btn , .thumb-info_main h3:before , .fwc_btn2 {
-	display: none;
+	/* display: none; */
 }
 .details-wrap_center {
     position:relative;
