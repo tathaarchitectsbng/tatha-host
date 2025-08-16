@@ -80,7 +80,7 @@
   font-weight: 300;
   color: #000000;
   opacity: 0;
-  animation: fadeInSpan 1.0s ease forwards;
+  animation: fadeInSpan 3.0s ease forwards;
 }
 
 .three-loader span:nth-child(1) { animation-delay: 0.5s; }
