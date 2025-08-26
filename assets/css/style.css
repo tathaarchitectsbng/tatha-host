@@ -212,7 +212,7 @@ blockquote p {
 	left:0;
 	width:100%;
 	height:100%;
-	background:#000;
+	/* background:#000; */
  	opacity:.4;
 	z-index: 2
 }
@@ -2160,6 +2160,10 @@ blockquote p {
 	text-align: left;
 	transform: translateY(0%);
 	padding: 0 30px;
+}
+.grid-item-holder .grid-item-info {
+	opacity: 1;
+	filter: blur(0px);
 }
 .grid-item-holder:hover .grid-item-info {
 	opacity: 1;
