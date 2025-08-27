@@ -229,3 +229,8 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width:1069px) {
+.fw-carousel_contr_wrap{
+  display: none;
+}
+}
