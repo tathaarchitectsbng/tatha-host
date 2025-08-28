@@ -17,6 +17,45 @@
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    <style>
+        .breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb li a:hover {
+  color: #0077ff;
+}
+
+/* Add separator icon */
+.breadcrumb li:not(:last-child)::after {
+  content: "\f105"; /* Font Awesome arrow-right */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 8px;
+  color: #888;
+}
+
+    </style>
 
 
 </head>
@@ -83,19 +122,19 @@
                             </li>
                             <li>
                                 <a href="/services/">Services </a>
-                                <!--second level -->
-                                <ul>
-                                    <li><a href="/services/residential-architecture/">Residential</a></li>
-                                    <li><a href="/services/interior-design/">Interior</a></li>
-                                    <li><a href="/services/tropical-architecture/">Tropical Building</a></li>
-                                    <li><a href="/services/sustainable-housing/">Sustainable Housing</a></li>
-                                    <li><a href="/services/nature-architecture/">Nature Building</a></li>
-                                    <li><a href="/services/commercial-architecture/">Commercial Building</a></li>
-                                </ul>
-                                <!--second level end-->
                             </li>
                             <li>
-                                <a href="/projects/">Projects </a>
+                                <a href="/projects/">Projects</a>
+                                <!--second level -->
+                                <ul>
+                                    <li><a href="/projects/residential/">Residential</a></li>
+                                    <li><a href="/projects/commercial/">Commercial</a></li>
+                                    <li><a href="/projects/hospitality/">Hospitality</a></li>
+                                    <li><a href="/projects/interior/">Interior</a></li>
+                                    <li><a href="/projects/landscape/">Landscape</a></li>
+                                    <li><a href="/projects/sustainable/">Sustainable</a></li>
+                                </ul>
+                                <!--second level end-->
                             </li>
                             <li>
                                 <a href="/news/">News</a>
@@ -119,8 +158,10 @@
         <!-- Header   end-->
         <!-- wrapper -->
         <div id="wrapper">
+            <!-- <ul class="breadcrumb" id="breadcrumb"></ul> -->
             <!-- content-holder -->
             <div class="content-holder">
+                
                 <!-- hero-carousel-wrapper -->
                 <div class="hero-carousel-wrapper hfs_wrap">
                     <div class="fs-slider fw-carousel2 lightgallery fw-carousel_hight full-height fs-anim-t"
@@ -181,7 +222,43 @@
                                     </div>
                                 </div>
                                 <!-- swiper-slide end-->
-                                   <!-- swiper-slide-->
+                                
+                                <!-- swiper-slide-->
+                                <div class="swiper-slide hov_zoom">
+                                    <div class="anim-fw">
+                                        <img src="/projects/residential/merzys-casa-trivandrum/images/tatha-project-merzys-casa-trivandrum-35.webp" alt="">
+                                        <a href="/projects/residential/merzys-casa-trivandrum/images/tatha-project-merzys-casa-trivandrum-35.webp"
+                                            class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <div class="overlay"></div>
+                                        <div class="thumb-info_main">
+                                            <h3><a href="/projects/interior/merzys-casa-trivandrum/">Merzy's
+                                                    Casa, Trivandrum</a></h3>
+                                            <p>A Contemporary 2,700 sq. ft Residence</p>
+                                            <a href="/projects/interior/"
+                                                class="fs-slider-item_btn">Interior <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="sc_num">05</div>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end-->
+                                <!-- swiper-slide-->
+                                <div class="swiper-slide hov_zoom">
+                                    <div class="anim-fw">
+                                        <img src="/projects/residential/swasthi-chathannoor-kollam/images/tatha-project-swasthi-chathannoor-kollam-51.webp" alt="">
+                                        <a href="/projects/residential/swasthi-chathannoor-kollam/images/tatha-project-swasthi-chathannoor-kollam-51.webp"
+                                            class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                        <div class="overlay"></div>
+                                        <div class="thumb-info_main">
+                                            <h3><a href="/projects/landscape/swasthi-chathannoor-kollam/">Swasthi, chathannoor</a></h3>
+                                            <p>A Contemporary 2,700 sq. ft Residence</p>
+                                            <a href="/projects/landscape/"
+                                                class="fs-slider-item_btn">Landscape <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="sc_num">06</div>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end-->
+                                 <!-- swiper-slide-->
                                 <div class="swiper-slide hov_zoom">
                                     <div class="anim-fw">
                                         <img src="/projects/sustainable/the-egret/images/tatha-project-the-egret-7.webp" alt="">
@@ -234,8 +311,8 @@
             <div class="header_social">
                 <ul>
                     <li><a href="https://wa.me/919544684689?text=Hi%20TATHA%20ARCHITECTS,%20I%20have%20an%20enquiry%20about%20your%20services.%20Please%20share%20details." target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/share/175QvJAPgs/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/tatha_architects/?igsh=MXRrbXJuenBhNzBybw%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
@@ -310,9 +387,9 @@
                             <ul>
                                 <li><a href="https://wa.me/919544684689?text=Hi%20TATHA%20ARCHITECTS,%20I%20have%20an%20enquiry%20about%20your%20services.%20Please%20share%20details."
                                         target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="javascript:void(0)" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <li><a href="https://www.facebook.com/share/175QvJAPgs/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                 </li>
-                                <li><a href="javascript:void(0)" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <li><a href="https://www.instagram.com/tatha_architects/?igsh=MXRrbXJuenBhNzBybw%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
                                 </li>
                                 <li><a href="javascript:void(0)" target="_blank"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -331,6 +408,33 @@
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/plugins.js"></script>
     <script src="/assets/js/scripts.js"></script>
+    <script>
+    const breadcrumbContainer = document.getElementById("breadcrumb");
+    const path = window.location.pathname.split("/").filter(p => p); // remove empty parts
+
+    let currentPath = "/";
+    
+    // Add Home first
+    const homeItem = document.createElement("li");
+    homeItem.innerHTML = `<a href="/"><i class="fa fa-home"></i> Home</a>`;
+    breadcrumbContainer.appendChild(homeItem);
+
+    path.forEach((part, index) => {
+      currentPath += part + "/";
+
+      const li = document.createElement("li");
+      const isLast = index === path.length - 1;
+      const text = part.charAt(0).toUpperCase() + part.slice(1).replace(/-/g, " ");
+
+      if (!isLast) {
+        li.innerHTML = `<a href="${currentPath}">${text}</a>`;
+      } else {
+        li.innerHTML = `<span>${text}</span>`; // last one not a link
+      }
+
+      breadcrumbContainer.appendChild(li);
+    });
+  </script>
 </body>
 
 </html>

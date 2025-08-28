@@ -28,7 +28,11 @@
   align-items: center;
   justify-content: center;
   color: #000000;
+<<<<<<< HEAD
   animation: fadeOut 1s ease 3.0s forwards;
+=======
+  animation: fadeOut 1s ease 2.0s forwards;
+>>>>>>> 16ae7b692d5b7922a24eb2678051d018dea1c4c9
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -45,7 +49,7 @@
   align-items: center;
   justify-content: center;
   color: #000000;
-  animation: fadeOut 1s ease 2.0s forwards;
+  animation: fadeOut 0s ease 0.0s forwards;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -228,4 +232,9 @@
 .sidebar-social>ul{
   display: flex;
   justify-content: center;
+}
+@media (max-width:1069px) {
+.fw-carousel_contr_wrap{
+  display: none;
+}
 }

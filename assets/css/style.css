@@ -212,7 +212,7 @@ blockquote p {
 	left:0;
 	width:100%;
 	height:100%;
-	background:#000;
+	/* background:#000; */
  	opacity:.4;
 	z-index: 2
 }
@@ -2532,7 +2532,8 @@ blockquote p {
 section {
 	float:left;
 	width:100%;
-	padding:90px 0;
+	padding:50px 0;
+	/* padding:90px 0; */
 	background: #151515;
 	border-radius: 30px;
 	margin-bottom: 30px;
@@ -2637,6 +2638,22 @@ section {
     font-size: 3.4em;
     font-weight: 800;
 }
+.section-number-1 {
+	position: absolute;
+	right: 0;
+	top: -20px;
+	color:rgb(237, 237, 237);
+    font-size: 3.4em;
+    font-weight: 800;
+}
+.section-number-2 {
+	position: absolute;
+	left: 0;
+	top: -20px;
+	color:rgb(237, 237, 237);
+    font-size: 3.4em;
+    font-weight: 800;
+}
 /*------ facts ------------------------------------------------*/
 .inline-facts-holder {
 	margin:40px 0 50px;
@@ -2710,6 +2727,12 @@ section {
 }
 .serv-item h4 {
 	font-size:18px;
+	padding-bottom:4px;
+	font-weight:700;
+	text-align:left;
+}
+.serv-item h2 {
+	font-size:22px;
 	padding-bottom:4px;
 	font-weight:700;
 	text-align:left;
@@ -3303,6 +3326,25 @@ section {
 	border-radius: 30px;
 }
 .single-btn:hover {
+	background: #d8d8d8;
+	color:#000000;
+}
+.single-btn-1 {
+    padding: 12px 30px;
+    background: #efefef;
+    font-weight: 600;
+	color:#000;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    transition: all .3s linear;
+    overflow: hidden;
+	border-radius: 30px;
+}
+.single-btn-1:hover {
 	background: #000;
 	color:#fff;
 }
@@ -4171,4 +4213,8 @@ section {
 }
 .inline-facts>div>div{
 	display: flex;
+}
+.d-al{
+	display: flex;
+	align-items: center;
 }

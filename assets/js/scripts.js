@@ -999,3 +999,32 @@ document.addEventListener('gesturestart', function (e) {
 $(window).on("load", function () {
     initTatha();
 });
+// shuffle and countdyn 
+// document.addEventListener("DOMContentLoaded", function () {
+//   const swiperWrapper = document.querySelector(".swiper-wrapper");
+//   const slides = Array.from(swiperWrapper.children);
+
+//   // Shuffle function (Fisher-Yates)
+//   function shuffle(array) {
+//     for (let i = array.length - 1; i > 0; i--) {
+//       const j = Math.floor(Math.random() * (i + 1));
+//       [array[i], array[j]] = [array[j], array[i]];
+//     }
+//     return array;
+//   }
+
+//   // Shuffle slides
+//   const shuffledSlides = shuffle(slides);
+
+//   // Clear wrapper and append in new order
+//   swiperWrapper.innerHTML = "";
+//   shuffledSlides.forEach((slide, index) => {
+//     // Find sc_num div inside this slide
+//     const scNum = slide.querySelector(".sc_num");
+//     if (scNum) {
+//       // Format number like 01, 02, 03…
+//       scNum.textContent = String(index + 1).padStart(2, "0");
+//     }
+//     swiperWrapper.appendChild(slide);
+//   });
+// });
