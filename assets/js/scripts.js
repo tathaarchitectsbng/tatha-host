@@ -1028,3 +1028,41 @@ $(window).on("load", function () {
 //     swiperWrapper.appendChild(slide);
 //   });
 // });
+const breadcrumbContainer = document.getElementById("breadcrumb");
+let path = window.location.pathname.split("/").filter(p => p); // remove empty parts
+
+// 🚫 remove index.html if present
+path = path.filter(part => part.toLowerCase() !== "index.html");
+
+let currentPath = "/";
+
+// Add Home first
+const homeItem = document.createElement("li");
+homeItem.innerHTML = `<a href="/"><i class="fa fa-home"></i></a>`;
+breadcrumbContainer.appendChild(homeItem);
+
+path.forEach((part, index) => {
+  currentPath += part + "/";
+
+  const li = document.createElement("li");
+  const isLast = index === path.length - 1;
+
+  // replace "-" with " " and apply capitalize via CSS
+  const text = part.replace(/-/g, " ");
+
+  if (!isLast) {
+    li.innerHTML = `<a href="${currentPath}" style="text-transform: capitalize;">${text}</a>`;
+  } else {
+    li.innerHTML = `<span style="text-transform: capitalize;">${text}</span>`; // last one not a link
+  }
+
+  breadcrumbContainer.appendChild(li);
+});
+//style for p
+document.querySelectorAll(".gallery-item p").forEach(p => {
+  let text = p.textContent.trim();
+  if (text.length > 100) {
+    p.textContent = text.substring(0, 100) + "...";
+  }
+});
+

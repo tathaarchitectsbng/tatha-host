@@ -234,4 +234,47 @@
 .fw-carousel_contr_wrap{
   display: none;
 }
+/* #wrapper{
+  top: 31px;
+} */
+}
+#wrapper{
+  top: 115px;
+}
+.breadcrumb {
+  margin-top: -10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+  left: 6%;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb li a:hover {
+  color: #83362c;
+}
+
+/* Add separator icon */
+.breadcrumb li:not(:last-child)::after {
+  content: "\f105"; /* Font Awesome arrow-right */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 8px;
+  color: #888;
 }

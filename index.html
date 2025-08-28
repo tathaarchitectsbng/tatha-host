@@ -17,46 +17,6 @@
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
-    <style>
-        .breadcrumb {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  font-size: 15px;
-  font-family: Arial, sans-serif;
-  position: relative;
-  z-index: 10;
-  background-color: #fff;
-}
-
-.breadcrumb li {
-  display: flex;
-  align-items: center;
-}
-
-.breadcrumb li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.breadcrumb li a:hover {
-  color: #0077ff;
-}
-
-/* Add separator icon */
-.breadcrumb li:not(:last-child)::after {
-  content: "\f105"; /* Font Awesome arrow-right */
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  margin-left: 8px;
-  color: #888;
-}
-
-    </style>
-
 
 </head>
 
@@ -154,11 +114,11 @@
                 </div>
                 <!-- share-wrapper end -->
             </div>
+        <ul class="breadcrumb" id="breadcrumb"></ul>
         </header>
         <!-- Header   end-->
         <!-- wrapper -->
         <div id="wrapper">
-            <!-- <ul class="breadcrumb" id="breadcrumb"></ul> -->
             <!-- content-holder -->
             <div class="content-holder">
                 
@@ -176,7 +136,7 @@
                                                 class="fal fa-search"></i></a>
                                         <div class="overlay"></div>
                                         <div class="thumb-info_main">
-                                            <h3><a href="/projects/hospitality/chirayoram/">chirayoram, Thrissur</a></h3>
+                                            <h3><a href="/projects/hospitality/chirayoram/" >chirayoram, Thrissur</a></h3>
                                             <p>Here you can place an optional description of your Project</p>
                                             <a href="/projects/hospitality/" class=" fs-slider-item_btn"> Hospitality <i class="fa fa-arrow-right" aria-hidden="true"></i>
 </a>
@@ -408,33 +368,6 @@
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/plugins.js"></script>
     <script src="/assets/js/scripts.js"></script>
-    <script>
-    const breadcrumbContainer = document.getElementById("breadcrumb");
-    const path = window.location.pathname.split("/").filter(p => p); // remove empty parts
-
-    let currentPath = "/";
-    
-    // Add Home first
-    const homeItem = document.createElement("li");
-    homeItem.innerHTML = `<a href="/"><i class="fa fa-home"></i> Home</a>`;
-    breadcrumbContainer.appendChild(homeItem);
-
-    path.forEach((part, index) => {
-      currentPath += part + "/";
-
-      const li = document.createElement("li");
-      const isLast = index === path.length - 1;
-      const text = part.charAt(0).toUpperCase() + part.slice(1).replace(/-/g, " ");
-
-      if (!isLast) {
-        li.innerHTML = `<a href="${currentPath}">${text}</a>`;
-      } else {
-        li.innerHTML = `<span>${text}</span>`; // last one not a link
-      }
-
-      breadcrumbContainer.appendChild(li);
-    });
-  </script>
 </body>
 
 </html>
