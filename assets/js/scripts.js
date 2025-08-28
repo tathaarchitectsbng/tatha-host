@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
   const preloader = document.querySelector(".tatha-preloader-index");
   setTimeout(() => {
     preloader.style.display = "none";
-  }, 7000);
+  }, 3000);
 });
 
 

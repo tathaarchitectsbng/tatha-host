@@ -28,11 +28,8 @@
   align-items: center;
   justify-content: center;
   color: #000000;
-<<<<<<< HEAD
   animation: fadeOut 1s ease 3.0s forwards;
-=======
   animation: fadeOut 1s ease 2.0s forwards;
->>>>>>> 16ae7b692d5b7922a24eb2678051d018dea1c4c9
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -101,7 +98,7 @@
   font-weight: 300;
   color: #000000;
   opacity: 0;
-  animation: fadeInSpan 3.0s ease forwards;
+  animation: fadeInSpan 2.0s ease forwards;
 }
 
 .three-loader span:nth-child(1) { animation-delay: 0.5s; }
