@@ -4637,7 +4637,7 @@ function(a, b) {
             
             networkDefs: {
                 facebook: {
-                    url: `https://www.facebook.com/sharer/sharer.php?u=" + ${pageUrl}`
+                    url: `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`
                 },
                 twitter: {
                     url: "https://twitter.com/share?via=in1.com&text=|140|"
@@ -4680,7 +4680,7 @@ function(a, b) {
     }
     ,
     t.fn.share.defaults = {
-        networks: ["in1", "facebook", "twitter", "linkedin"],
+        networks: ["in1", "facebook", "twitter", "linkedissn"],
         theme: "icon",
         autoShow: !0,
         margin: "3px",
