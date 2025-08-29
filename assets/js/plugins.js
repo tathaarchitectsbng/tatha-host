@@ -4591,6 +4591,7 @@ function(a, b) {
  * ---
  */
 !function(t, e) {
+    const pageUrl = encodeURIComponent(window.location.href);
     var s = e.document;
     t.fn.share = function(i) {
         var r = {
@@ -4631,10 +4632,12 @@ function(a, b) {
                 })
             }
         }
+        
           , n = {
+            
             networkDefs: {
                 facebook: {
-                    url: "http://www.facebook.com/share.php?u=|u|"
+                    url: `https://www.facebook.com/sharer/sharer.php?u=" + ${pageUrl}`
                 },
                 twitter: {
                     url: "https://twitter.com/share?via=in1.com&text=|140|"
