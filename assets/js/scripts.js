@@ -200,7 +200,8 @@ function initTatha() {
                 hideThumbnails();
             }
         });
-        var j32 = new Swiper(".slider-fw .swiper-container", {
+        if (window.innerWidth >= 1069){
+var j32 = new Swiper(".slider-fw .swiper-container", {
             preloadImages: false,
             loop: true,
             grabCursor: true,
@@ -225,6 +226,27 @@ function initTatha() {
                 prevEl: '.ccsw-prev',
             }
         });
+        }else{
+            var j32 = new Swiper(".slider-fw .swiper-container", {
+            preloadImages: false,
+            loop: false,
+            grabCursor: false,
+            slidesPerView: "auto",
+            centeredSlides: false,
+            speed: 1400,
+            spaceBetween: 0,
+            effect: "slide",
+            mousewheel: false,
+            parallax: false,
+            pagination: {
+                el: '.hero-slider-wrap_pagination',
+                clickable: false,
+
+            },
+            autoplay: false,
+        });
+        }
+        
         var totalSlides = $(".slider-fw  .swiper-slide:not(.swiper-slide-duplicate) .bg").length;
         $('.total').html('0' + totalSlides);
         j32.on('slideChange', function () {
@@ -1066,3 +1088,29 @@ document.querySelectorAll(".gallery-item p").forEach(p => {
   }
 });
 
+// for swipper 
+function disableSliderBelow1069() {
+  const slider = document.querySelector('.slider-fw');
+  if (!slider) return;
+
+  if (window.innerWidth < 1069) {
+    // Remove the class
+    slider.classList.remove('slider-fw');
+
+    // If Swiper is active, destroy it
+    if (slider.swiper) {
+      slider.swiper.destroy(true, true);
+    }
+  } else {
+    // Add the class back when screen is larger
+    if (!slider.classList.contains('slider-fw')) {
+      slider.classList.add('slider-fw');
+    }
+  }
+}
+
+// Run when page loads
+disableSliderBelow1069();
+
+// Run on resize
+window.addEventListener('resize', disableSliderBelow1069);
