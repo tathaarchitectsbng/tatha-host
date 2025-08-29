@@ -234,13 +234,8 @@
 .fw-carousel_contr_wrap{
   display: none;
 }
-/* #wrapper{
-  top: 31px;
-} */
 }
-#wrapper{
-  top: 115px;
-}
+
 .breadcrumb {
   margin-top: -10px;
   list-style: none;
@@ -281,9 +276,13 @@
 }
 
 @media (max-width:1069px) {
-.breadcrumb{
-  display: flex;
-}}
+  .breadcrumb{
+    display: flex;
+  }
+  #wrapper{
+    top: 130px;
+  }
+}
 .left-sub-heading{
   color: #000 !important;
   font-size: 17px;
