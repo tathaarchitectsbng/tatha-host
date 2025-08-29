@@ -1050,6 +1050,9 @@ $(window).on("load", function () {
 //     swiperWrapper.appendChild(slide);
 //   });
 // });
+
+
+// breadcrumbContainer
 const breadcrumbContainer = document.getElementById("breadcrumb");
 let path = window.location.pathname.split("/").filter(p => p); // remove empty parts
 
@@ -1087,30 +1090,3 @@ document.querySelectorAll(".gallery-item p").forEach(p => {
     p.textContent = text.substring(0, 100) + "...";
   }
 });
-
-// for swipper 
-function disableSliderBelow1069() {
-  const slider = document.querySelector('.slider-fw');
-  if (!slider) return;
-
-  if (window.innerWidth < 1069) {
-    // Remove the class
-    slider.classList.remove('slider-fw');
-
-    // If Swiper is active, destroy it
-    if (slider.swiper) {
-      slider.swiper.destroy(true, true);
-    }
-  } else {
-    // Add the class back when screen is larger
-    if (!slider.classList.contains('slider-fw')) {
-      slider.classList.add('slider-fw');
-    }
-  }
-}
-
-// Run when page loads
-disableSliderBelow1069();
-
-// Run on resize
-window.addEventListener('resize', disableSliderBelow1069);

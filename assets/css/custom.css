@@ -305,3 +305,7 @@
     display: block;
 }
 }
+/* hidden project number  */
+.sc_num, .pr_num{
+  display: none;
+}
