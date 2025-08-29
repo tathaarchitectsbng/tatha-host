@@ -244,14 +244,15 @@
 .breadcrumb {
   margin-top: -10px;
   list-style: none;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   gap: 8px;
   font-size: 14px;
   position: relative;
   z-index: 10;
   background-color: #fff;
-  left: 6%;
+  margin-left: 36px;
+  padding-bottom: 10px;
 }
 
 .breadcrumb li {
@@ -278,3 +279,8 @@
   margin-left: 8px;
   color: #888;
 }
+
+@media (max-width:1069px) {
+.breadcrumb{
+  display: flex;
+}}
