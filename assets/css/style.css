@@ -2454,6 +2454,7 @@ blockquote p {
 	z-index:1;
 	overflow:hidden;
 	border-radius: 30px;
+	margin-top: 20px;
 }
 .ci_dec {
 	position: absolute;
