@@ -1736,6 +1736,7 @@ blockquote p {
 	background:#111;
 	padding: 0  50px;
 	border-radius: 30px;
+	filter: invert();
 }
 .fw-carousel_contr_wrap:before , .fw-carousel_contr:before {
 	content:'';
@@ -1751,8 +1752,8 @@ blockquote p {
 	position: absolute;
 	right: 10px;
 	top: 10px;
-	bottom: 10px;
-	line-height: 60px;
+	/* bottom: 10px; */
+	line-height: 51px;
 	background: #000;
 	border-radius: 30px;
 	padding: 0 30px;
