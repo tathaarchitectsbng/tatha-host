@@ -518,8 +518,8 @@ blockquote p {
 	width: 450px;
 	left: 100px;
 	top: 0;
-	height: 80px;
-	line-height: 80px;
+	height: 55px;
+	line-height: 55px;
 	background: #000;
 	z-index: -1;
     transition: all .3s linear;
@@ -533,25 +533,44 @@ blockquote p {
 	color:#fff;
 	display: inline-block;
 	margin: 0 15px;
-	font-size: 1.0em;
-    font-weight: 700;
+	font-size: 1.5em;
+    font-weight: 600;
 	text-align: left;
 	opacity: 0;
 }
 .share-icon:hover {
-	color:#666;
+	color:var(--secondary-color);
 }
-.share-icon-facebook:before  {
-    content: "Facebook";
+
+/* Font Awesome icons */
+.share-icon-facebook:before {
+  content: "\f09a"; /* Facebook */
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
 }
+
 .share-icon-twitter:before {
-    content: "Twitter";
+  content: "\f099"; /* Twitter */
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
 }
-.share-icon-pinterest:before {
-    content: "Pinterest";
-}
+
 .share-icon-linkedin:before {
-     content: "Linkedin";
+  content: "\f0e1"; /* LinkedIn */
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.share-icon-whatsapp:before {
+  content: "\f232"; /* WhatsApp */
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.share-icon-email:before {
+  content: "\f0e0"; /* Envelope (email) */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
 }
 /*------  sidebar ------------------------------------------------------*/
 .sb-button {

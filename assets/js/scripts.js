@@ -778,7 +778,7 @@ var j32 = new Swiper(".slider-fw .swiper-container", {
     $(".dec-title span").text(textTitle);
     // Share   ------------------
     $(".share-container").share({
-        networks: ['facebook', 'pinterest', 'twitter', 'linkedin']
+        networks: ["whatsapp", "facebook", "twitter", "linkedin", "email"]
     });
     function hideShare() {
         $(".show-share").addClass("isShare");

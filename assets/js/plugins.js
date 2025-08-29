@@ -4592,6 +4592,7 @@ function(a, b) {
  */
 !function(t, e) {
     const pageUrl = encodeURIComponent(window.location.href);
+    const pageTitle = encodeURIComponent(document.title);
     var s = e.document;
     t.fn.share = function(i) {
         var r = {
@@ -4634,45 +4635,21 @@ function(a, b) {
         }
         
           , n = {
-            
             networkDefs: {
                 facebook: {
                     url: `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`
                 },
                 twitter: {
-                    url: "https://twitter.com/share?via=in1.com&text=|140|"
+                    url: `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`
                 },
                 linkedin: {
-                    url: "http://www.linkedin.com/shareArticle?mini=true&url=|u|&title=|t|&summary=|d|&source=in1.com"
+                    url: `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`
                 },
-                in1: {
-                    url: "http://www.in1.com/cast?u=|u|",
-                    w: "490",
-                    h: "529"
-                },
-                tumblr: {
-                    url: "http://www.tumblr.com/share?v=3&u=|u|"
-                },
-                digg: {
-                    url: "http://digg.com/submit?url=|u|&title=|t|"
-                },
-                googleplus: {
-                    url: "https://plusone.google.com/_/+1/confirm?hl=en&url=|u|"
-                },
-                reddit: {
-                    url: "http://reddit.com/submit?url=|u|"
-                },
-                pinterest: {
-                    url: "http://pinterest.com/pin/create/button/?url=|u|&media=&description=|d|"
-                },
-                posterous: {
-                    url: "http://posterous.com/share?linkto=|u|&title=|t|"
-                },
-                stumbleupon: {
-                    url: "http://www.stumbleupon.com/submit?url=|u|&title=|t|"
+                whatsapp: {
+                    url: `https://api.whatsapp.com/send?text=${pageTitle}%20${pageUrl}`
                 },
                 email: {
-                    url: "mailto:?subject=|t|"
+                    url: `mailto:?subject=${pageTitle}&body=Check%20this%20out:%20${pageUrl}`
                 }
             }
         };
@@ -4680,7 +4657,7 @@ function(a, b) {
     }
     ,
     t.fn.share.defaults = {
-        networks: ["in1", "facebook", "twitter", "linkedissn"],
+        networks: ["whatsapp", "facebook", "twitter", "linkedin", "email"],
         theme: "icon",
         autoShow: !0,
         margin: "3px",
