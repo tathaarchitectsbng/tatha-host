@@ -284,3 +284,7 @@
 .breadcrumb{
   display: flex;
 }}
+.left-sub-heading{
+  color: #000 !important;
+  font-size: 17px;
+}

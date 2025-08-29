@@ -51,7 +51,7 @@ body , .ml_bg-item:before , .main-loader , .main-inner , .aside-column , .main-f
     backdrop-filter: blur(2px);
 }
  .custom-form textarea, .custom-form input[type="text"], .custom-form input[type=email] , .post-item_media a , .pagination a  , .order_btn  , .to-top-btn , .btn , .serv-item img  , .serv-price , .sidebar-social li a  , #subscribe .enteremail , #subscribe-button , .categories_widget_item_img  , .blog-media , .pr-tags li a , .post-img-row img   , .comment-author img , .map-box    , .single-video_wrap , .close_sb    {
-	box-shadow: 0  10px 44px 0px rgba(0,0,0, .3);
+	box-shadow: 0  10px 44px 0px rgba(255, 255, 255, 0.3);
 }
  .comment-body , .blog-btn  , .comm-num     {
 	box-shadow: 0  10px 64px 0px rgba(0,0,0, .1);
