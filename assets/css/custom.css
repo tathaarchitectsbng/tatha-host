@@ -297,3 +297,11 @@
   color: #000;
   text-transform: capitalize;
 }
+.view-all-projects{
+  display: none;
+}
+@media (max-width:1069px) {
+  .view-all-projects{
+    display: block;
+}
+}

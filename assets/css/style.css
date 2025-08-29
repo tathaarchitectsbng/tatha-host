@@ -3788,10 +3788,11 @@ section {
 .menusb a.back{
 	padding-left:24px;
 }
-.menusb a.back:before{
-	font-family: Font Awesome\ 5 Pro;
-	content: "\f177";
-	font-size:14px;
+.menusb a.back:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;   /* Solid icons need this */
+    content: "\f177";   /* arrow-left */
+    font-size: 14px;
 } 	
 .main-footer , .aside-column , .progress-bar-wrap {
 	display: none;
