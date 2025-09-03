@@ -212,7 +212,7 @@ blockquote p {
 	left:0;
 	width:100%;
 	height:100%;
-	/* background:#000; */
+	background:#00000078;
  	opacity:.4;
 	z-index: 2
 }
@@ -2518,6 +2518,7 @@ blockquote p {
 	font-weight:700;
 	color:#fff;
 	position:relative;
+	text-shadow: 1px 3px 9px #000000bf;
 }
 .column-title h2:before {
 	content: '';
@@ -2545,10 +2546,10 @@ blockquote p {
 	width: 40px;
 }
 .column-title h3 {
-	color:rgba(255,255,255,.8);
+	color:#fff;
 	max-width: 400px;
 	line-height: 24px;
-	text-shadow: 1px 1px 0px black;
+	text-shadow: 1px 3px 9px #000;
  
 } 
 section {

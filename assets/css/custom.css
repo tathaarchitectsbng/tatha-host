@@ -222,6 +222,10 @@
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
+  padding: 0px 14px;
+}
+.team-single img{
+  width: 170px;
 }
 .team-single p{
   text-align: center !important;
