@@ -4648,6 +4648,9 @@ function(a, b) {
                 whatsapp: {
                     url: `https://api.whatsapp.com/send?text=${pageTitle}%20${pageUrl}`
                 },
+                instagram: {
+                    url: `instagram://share?text=${pageTitle}%20${pageUrl}`
+                },
                 email: {
                     url: `mailto:?subject=${pageTitle}&body=Check%20this%20out:%20${pageUrl}`
                 }
@@ -4657,7 +4660,7 @@ function(a, b) {
     }
     ,
     t.fn.share.defaults = {
-        networks: ["whatsapp", "facebook", "twitter", "linkedin", "email"],
+        networks: ["whatsapp", "facebook", "instagram", "twitter", "linkedin"],
         theme: "icon",
         autoShow: !0,
         margin: "3px",

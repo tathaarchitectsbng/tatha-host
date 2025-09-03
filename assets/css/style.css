@@ -566,6 +566,11 @@ blockquote p {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
+.share-icon-instagram:before {
+  content: "\f16d"; /* WhatsApp */
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
 
 .share-icon-email:before {
   content: "\f0e0"; /* Envelope (email) */
