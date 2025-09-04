@@ -6,9 +6,9 @@ window.addEventListener("load", () => {
 });
 window.addEventListener("load", () => {
   const preloader = document.querySelector(".tatha-preloader-index");
-  setTimeout(() => {
-    preloader.style.display = "none";
-  }, 3000);
+//   setTimeout(() => {
+//     preloader.style.display = "none";
+//   }, 3000);
 });
 
 
