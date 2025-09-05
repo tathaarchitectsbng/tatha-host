@@ -2525,6 +2525,13 @@ blockquote p {
 	position:relative;
 	text-shadow: 1px 3px 9px #000000bf;
 }
+.column-title h1 {
+	font-size:4.2em;
+	font-weight:700;
+	color:#fff;
+	position:relative;
+	text-shadow: 1px 3px 9px #000000bf;
+}
 .column-title h2:before {
 	content: '';
 	position: absolute;
@@ -2534,6 +2541,7 @@ blockquote p {
 	background: #fff;
 	width: 40px;
 }
+
 .column-title h1 {
 	font-size:4.2em;
 	font-weight:700;
@@ -2541,16 +2549,14 @@ blockquote p {
 	position:relative;
 	text-shadow: 2px 4px 3px black;
 }
-.column-title h1:before {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: -20px;
-	height: 2px;
-	background: #fff;
-	width: 40px;
-}
 .column-title h3 {
+	color:#fff;
+	max-width: 400px;
+	line-height: 24px;
+	text-shadow: 1px 3px 9px #000;
+ 
+} 
+.column-title p {
 	color:#fff;
 	max-width: 400px;
 	line-height: 24px;
@@ -4196,6 +4202,9 @@ section {
     right: 10px;
 }
 .column-title h2 {
+    font-size: 2.4em;
+}
+.column-title h1 {
     font-size: 2.4em;
 }
 .categories_widget_item {
