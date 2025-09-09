@@ -4649,7 +4649,7 @@ function(a, b) {
                     url: `https://api.whatsapp.com/send?text=${pageTitle}%20${pageUrl}`
                 },
                 instagram: {
-                    url: `instagram://share?text=${pageTitle}%20${pageUrl}`
+                    url: `https://www.instagram.com/tatha_architects/`
                 },
                 email: {
                     url: `mailto:?subject=${pageTitle}&body=Check%20this%20out:%20${pageUrl}`

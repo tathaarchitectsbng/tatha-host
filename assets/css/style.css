@@ -2675,9 +2675,13 @@ section {
 	color:rgb(0, 0, 0);
 	max-width:400px;
 	text-align:left;
-	font-size: 17px;
+	font-size: 15px;
 	padding-bottom: 15px;
 	font-family: 'Poppins', sans-serif;
+}
+.contact-details a{
+	font-size: large;
+	text-transform: capitalize;
 }
 .section-title.st_small {
 	border:none;
