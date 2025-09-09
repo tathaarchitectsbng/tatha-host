@@ -2615,6 +2615,22 @@ section {
     font-weight: 800;
 	/* padding-bottom:15px; */
 }
+.section-title h2 {
+	text-align: left;
+    font-size: 2.4em;
+ 	position: relative;
+    font-weight: 800;
+	padding-bottom:3px;
+}
+.section-title h2:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -20px;
+    height: 2px;
+    background: rgba(255,255,255,.5);
+    width: 30px;
+}
 .section-title h1 {
 	text-align: left;
     font-size: 2.4em;
@@ -2631,19 +2647,12 @@ section {
     background: rgba(255,255,255,.5);
     width: 30px;
 }
+
 .section-title {
 	position:relative;
-    padding-bottom: 40px;
-	margin-bottom:40px;
+    padding-bottom: 13px;
+	margin-bottom:23px;
 	border-bottom:1px solid rgba(255,255,255, .2);
-}
-.section-title h2 {
-	text-align: left;
-    font-size: 2.4em;
- 	position: relative;
-    font-weight: 800;
-	padding-bottom:15px;
-	color:#000000;
 }
 .section-title h3:before {
     content: '';
@@ -2661,6 +2670,12 @@ section {
 	color:rgba(255,255,255,.8);
 	max-width:400px;
 	text-align:left;
+}
+.section-title p {
+	color:rgba(255,255,255,.8);
+	max-width:400px;
+	text-align:left;
+	font-size: 17px;
 }
 .section-title.st_small {
 	border:none;
