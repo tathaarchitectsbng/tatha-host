@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Homepage -->
+<url>
+  <loc>https://tathaarchitects.com/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<!-- Static pages -->
+<url>
+  <loc>https://tathaarchitects.com/about-us/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/why-choose-us/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/services/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/contact-us/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<!-- Category pages -->
+<url>
+  <loc>https://tathaarchitects.com/projects/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/news/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Project categories -->
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/hospitality/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/landscape/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.75</priority>
+</url>
+<!-- Individual project pages -->
+<url>
+  <loc>https://tathaarchitects.com/projects/hospitality/chirayoram/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/merzys-casa-trivandrum/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-hoodi-bangloore/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/merzys-casa-trivandrum/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/landscape/swasthi-chathannoor-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/hospitality/pinnacle-crown-resort-weekend-home/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-vijayawada/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/the-nook/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/swasthi-chathannoor-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/lord-house-trivandrum/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-commercial-street/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-hyderabad/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-jayanagar-4th-block/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-hubbali/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-rajajinagar/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-chennai/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-malleswaram/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-jayanagar/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-marathahalli/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-shimogga/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-phoenix-mall/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/bhavayami-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/commercial/bhima-koramangala/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/hortus/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/residential/tip-top-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/bhavayami-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/the-nook/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/swasthi-chathannoor-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/lord-house-trivandrum/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/tip-top-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/interior/chirayoram/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/landscape/lord-house-trivandrum/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/landscape/hortus/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/landscape/merzys-casa-trivandrum/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/landscape/bhavayami-kollam/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tathaarchitects.com/projects/landscape/chirayoram/</loc>
+  <lastmod>2025-09-09T16:29:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
