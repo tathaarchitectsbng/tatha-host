@@ -447,7 +447,7 @@ function initTatha() {
             mousewheel: true,
             centeredSlides: false,
             autoHeight: false,
-            speed: 1400,
+            speed: 3000,
             navigation: {
                 nextEl: '.ccsw-next',
                 prevEl: '.ccsw-prev',
