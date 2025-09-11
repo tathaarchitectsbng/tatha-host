@@ -1040,9 +1040,13 @@ path = path.filter(part => part.toLowerCase() !== "index.html");
 let currentPath = "/";
 
 // Add Home first
-const homeItem = document.createElement("li");
+try {
+    const homeItem = document.createElement("li");
 homeItem.innerHTML = `<a href="/"><i class="fa fa-home"></i></a>`;
 breadcrumbContainer.appendChild(homeItem);
+} catch (error) {
+    
+}
 
 path.forEach((part, index) => {
   currentPath += part + "/";
